@@ -5,7 +5,7 @@ My client, Dana, desires to utilize data of UFO sightings to build an interactiv
 ## Results
 ### Utilizing the Search Criteria on the Webpage
 * Users can re-initialize their search by clicking on the navigation bar at the top left, which reads "UFO Sightings".  
-![initial page](https://user-images.githubusercontent.com/106560739/185807632-beefd890-8e66-4807-9da2-63ab1a0bfd76.png
+![initial page](https://user-images.githubusercontent.com/106560739/185807632-beefd890-8e66-4807-9da2-63ab1a0bfd76.png)
 * To filter the UFO data based on sighting date, the user can input their date of interest in the "Enter Date" area of the table. Their change of date is detected and the table is adjusted accordingly. In the image below, the date "1/6/2010" was entered and the table only displays this sighting date.
 ![date](https://user-images.githubusercontent.com/106560739/185807747-e9eacfe2-adbe-4d19-bdf9-4c522916f663.png)
 * To filter the UFO data based on sighting city, the user can input their city of interest in the "Enter City" area of the table. Their change of city is detected and the table is adjusted accordingly. In the image below, the city "san diego" was entered and the table only displays this sighting city.
@@ -20,5 +20,6 @@ My client, Dana, desires to utilize data of UFO sightings to build an interactiv
 ![all filters](https://user-images.githubusercontent.com/106560739/185808113-80095ed1-79dc-4f92-9710-29c43b2b151c.png)
 ## Summary
 ### Drawbacks
-This webpage design has several drawbacks. The most notable one is the inability for the user to enter filtering criteria
+The current webpage design has one notable drawback: the strict filter parameters increase user difficulty in searching for certain UFO sightings. The user is unable to enter filtering criteria when employing text formats that are different than the ones specified by the placeholders. This means that users cannot use different capitalization nor a different number of spaces between letters when searching for specific sightings. Furthermore, the user must enter the date in only one particular format, as displayed by the placeholder, in order to obtain results. This drawback ultimately does not permit a high level of user-friendliness and makes for a less intuitive website.  
 ### Recommendations
+There are two specific recommendations I believe should be enacted. The first suggestion is to use regex within the code to allow the user to enter text in different formats. This would allow for users to obtain results for sightings regardless of the capitalization, spaces, and date format. For example, using regex in the code would allow the user to enter "CA" or "ca" for the state of California in the "Enter State" filter. This should be applied to all filters. The second suggestion to enhance this website is to include a drop down menu of options for the filter criteria. This menu would display the possible dates, cities, states, countries, and shapes a user can choose to obtain UFO data from. Such an action further develops this website in a positive manner. 
